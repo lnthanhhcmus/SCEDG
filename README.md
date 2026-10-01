@@ -168,39 +168,18 @@ Retrieval, cross-encoder reranking, and SCE append to JSONL files and skip quest
 
 | Artifact | Link |
 |---|---|
-| Qwen2.5-VL-3B LoRA adapter, OK-VQA | TODO |
-| Qwen2.5-VL-3B LoRA adapter, A-OKVQA | TODO |
-| Task-specific reranker weights | TODO |
-| REACT + YOLO-WorldV2 relation checkpoint (VG150) | TODO |
+| Qwen2.5-VL-3B LoRA adapter, OK-VQA | - |
+| Qwen2.5-VL-3B LoRA adapter, A-OKVQA | - |
+| Task-specific reranker weights | - |
+| REACT + YOLO-WorldV2 relation checkpoint (VG150) | - |
 
 To evaluate a released adapter, set `HF_USERNAME` and `RUN_NAME` so that `MODEL_REPO_ID` points to it, place the reranker weights in `MODEL_DIR`, and run `Pipeline.ipynb` with `DATASET_SPLIT = "test"`.
 
 ## Citation
 
-If you use this code, please cite:
 
-```bibtex
-@article{dao2026scedg,
-  title   = {{SCEDG}: Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering},
-  author  = {Dao, Thien and Bui, Phat and Nguyen, Thai and Dang, Kha and Le, Thanh},
-  journal = {Knowledge-Based Systems},
-  year    = {2026},
-  note    = {Submitted}
-}
-```
-
-<!-- TODO: update volume, pages, and DOI after publication. -->
-
-## Acknowledgements
-
-This research is funded by the Vietnam National Foundation for Science and Technology Development (NAFOSTED) under grant number 102.05-2025.75.
-
-SCEDG builds on [Long-CLIP](https://github.com/beichenzbc/Long-CLIP), [SGG-Benchmark and REACT](https://github.com/Maelic/SGG-Benchmark), [OVEN and Wiki6M](https://github.com/open-vision-language/oven), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct), [mxbai-rerank](https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v1), [Mamba](https://github.com/state-spaces/mamba), [GLiNER](https://github.com/urchade/GLiNER), [spaCy](https://spacy.io), [Sentence-Transformers](https://www.sbert.net), [ConceptNet](https://conceptnet.io), and [FAISS](https://github.com/facebookresearch/faiss). We thank their authors for releasing them.
 
 ## License
 
 The code in this repository is released under the [MIT License](LICENSE). Datasets, knowledge bases, and pretrained models used by the notebooks are distributed under their own licenses. Please check the sources listed in [docs/DATA.md](docs/DATA.md) before redistributing them.
 
-## Contact
-
-Thanh Le (corresponding author), Faculty of Information Technology, University of Science, VNU-HCM, Vietnam. Email: lnthanh@fit.hcmus.edu.vn
