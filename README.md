@@ -7,7 +7,7 @@
 [![Open Preparation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USER/SCEDG/blob/main/notebooks/Preparation.ipynb)
 [![Open Pipeline in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USER/SCEDG/blob/main/notebooks/Pipeline.ipynb)
 
-Official code for the paper **" Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"** by Thien Dao, Phat Bui, Thai Nguyen, Kha Dang, and Thanh Le.
+Official code for the paper **" Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"**.
 
 <p align="center">
   <img src="docs/assets/overview.png" width="92%" alt="Overview of SCEDG">
