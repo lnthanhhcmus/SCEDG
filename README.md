@@ -1,4 +1,4 @@
-# SCEDG: Semantic-Compressive Evidence Selection and Dynamic Gating for Knowledge-Based VQA
+#Semantic-Compressive Evidence Selection and Dynamic Gating for Knowledge-Based VQA
 
 <!-- TODO before publishing: replace YOUR-GITHUB-USER, add the paper link and DOI once available. -->
 
@@ -7,7 +7,7 @@
 [![Open Preparation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USER/SCEDG/blob/main/notebooks/Preparation.ipynb)
 [![Open Pipeline in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USER/SCEDG/blob/main/notebooks/Pipeline.ipynb)
 
-Official code for the paper **"SCEDG: Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"** by Thien Dao, Phat Bui, Thai Nguyen, Kha Dang, and Thanh Le (Faculty of Information Technology, University of Science, VNU-HCM).
+Official code for the paper **"SCEDG: Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"** by Thien Dao, Phat Bui, Thai Nguyen, Kha Dang, and Thanh Le.
 
 <p align="center">
   <img src="docs/assets/overview.png" width="92%" alt="Overview of SCEDG">
