@@ -1,0 +1,51 @@
+# TODO before publishing: replace YOUR-GITHUB-USER and update the preferred citation after publication.
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "SCEDG: Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"
+type: software
+license: MIT
+repository-code: "https://github.com/YOUR-GITHUB-USER/SCEDG"
+keywords:
+  - knowledge-based visual question answering
+  - multimodal retrieval
+  - evidence reranking
+  - selective knowledge injection
+  - vision-language models
+authors:
+  - given-names: Thien
+    family-names: Dao
+    affiliation: "Faculty of Information Technology, University of Science, VNU-HCM, Vietnam"
+    orcid: "https://orcid.org/0009-0003-6960-7871"
+  - given-names: Phat
+    family-names: Bui
+    affiliation: "Faculty of Information Technology, University of Science, VNU-HCM, Vietnam"
+    orcid: "https://orcid.org/0009-0006-6329-4220"
+  - given-names: Thai
+    family-names: Nguyen
+    affiliation: "Faculty of Information Technology, University of Science, VNU-HCM, Vietnam"
+    orcid: "https://orcid.org/0009-0001-8546-8838"
+  - given-names: Kha
+    family-names: Dang
+    affiliation: "Faculty of Information Technology, University of Science, VNU-HCM, Vietnam"
+    orcid: "https://orcid.org/0009-0008-3886-7386"
+  - given-names: Thanh
+    family-names: Le
+    affiliation: "Faculty of Information Technology, University of Science, VNU-HCM, Vietnam"
+    email: lnthanh@fit.hcmus.edu.vn
+    orcid: "https://orcid.org/0000-0002-2180-4222"
+preferred-citation:
+  type: article
+  title: "SCEDG: Semantic-compressive evidence selection and dynamic gating for knowledge-based visual question answering"
+  journal: "Knowledge-Based Systems"
+  notes: "Manuscript submitted. Volume, pages and DOI will be added after publication."
+  authors:
+    - given-names: Thien
+      family-names: Dao
+    - given-names: Phat
+      family-names: Bui
+    - given-names: Thai
+      family-names: Nguyen
+    - given-names: Kha
+      family-names: Dang
+    - given-names: Thanh
+      family-names: Le

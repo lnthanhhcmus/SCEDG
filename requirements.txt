@@ -1,0 +1,33 @@
+# Environment of notebooks/Pipeline.ipynb: Python 3.12, CUDA 12.8 (Google Colab GPU runtime).
+# The causal-conv1d and mamba-ssm wheels below are built for Python 3.12 and torch 2.10 (CUDA 12).
+# After installation run:  python -m spacy download en_core_web_trf
+# Long-CLIP and SGG-Benchmark (REACT) are cloned by the notebooks and are not pip packages.
+# torchcodec is uninstalled in the notebook. Do not add it to this environment.
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+
+causal-conv1d @ https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
+mamba-ssm @ https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
+
+transformers==5.1.0
+faiss-gpu-cu12
+datasets
+huggingface_hub
+accelerate
+sentence-transformers
+bitsandbytes
+peft
+torchao
+qwen-vl-utils
+gliner
+spacy
+ftfy
+regex
+requests
+scikit-learn
+numpy
+pillow
+tqdm
